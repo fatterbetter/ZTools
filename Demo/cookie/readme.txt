@@ -1,0 +1,3 @@
+多进程共享cookie的示例
+testcookie3使用apihook相关函数，记录访问网页过程中的所有cookie信息
+当打开testcookie4时，会从testcookie3中取出cookie信息，然后设置到本进程，再打开网页
